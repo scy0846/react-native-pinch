@@ -101,7 +101,7 @@ RCT_EXPORT_MODULE();
     return self;
 }
 
-(BOOL)requiresMainQueueSetup
++ (BOOL)requiresMainQueueSetup
 {
     return NO;
 }
